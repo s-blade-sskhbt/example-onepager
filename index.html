@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>streamer onepager website</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">s_blade da twitch b!tch</a>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+		<div class="row">
+			<div class="col-xl-9 mx-auto">
+				<h1>trash talk and old school skills on lock</h1>
+				<h2>twitch.tv/s_blade</h2>
+			</div>
+		</div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container-fluid p-0">
+		<iframe
+			src="https://clips.twitch.tv/embed?clip=LightPerfectGrouseKappaWealth"
+			width="100%"
+			height="480"
+			frameborder="0"
+			scrolling="no"
+			allowfullscreen="true"
+			autoplay="true"
+			muted="true">
+		</iframe>
+    </div>
+  </section>
+  
+  <section id="twitterfeed">
+	<a 
+		class="twitter-timeline"
+		data-lang="en"
+		data-height="500"
+		data-theme="light"
+		data-chrome="nofooter noborders"
+		data-tweet-limit="2"
+		href="https://twitter.com/sbladefgc?ref_src=twsrc%5Etfw">tweets by s-blade</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
+
+  <section id="instafeed">
+	<!-- LightWidget WIDGET -->
+	<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+	<iframe src="http://lightwidget.com/widgets/03e876893671522bb6dadbb49750d8a0.html"
+		allowtransparency="true"
+		class="lightwidget-widget"
+		style="width:100%;border:0;overflow:hidden;"></iframe>
+  </section>
+
+  <section class="text-center">
+    <div class="container-fluid p-0">
+		<div id="twitch-embed"></div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mb-4">Every day at 4:20pm GMT+12</h2>
+		  <h5>except when there's a Seahawks or Raptors game on</h5>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; s-blade's webpage 2019. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="http://www.facebook.com/s.blade">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="http://www.twitter.com/sbladefgc">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://www.instagram.com/_s.blade">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+      <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: "100%",
+        height: 500,
+		chat: "mobile",
+        channel: "s_blade"
+      });
+    </script>
+</body>
+
+</html>
